@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import heroAsset from "@/assets/sleepydog-hero.png.asset.json";
 import bedAsset from "@/assets/sleepydog-bed.png.asset.json";
+import sleepyVideo from "@/assets/sleepy.mp4.asset.json";
 
 const CONTRACT = "SOON_COMING_CA_ADDRESS_HERE";
 const TG_URL = "#";
