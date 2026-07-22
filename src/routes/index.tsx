@@ -272,7 +272,37 @@ function Roadmap() {
   );
 }
 
-function CTA() {
+function VideoSection() {
+  return (
+    <section id="dream" className="relative py-32 bg-night overflow-hidden">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="text-xs tracking-[0.3em] text-accent mb-4">☾ CAUGHT ON CAMERA</div>
+        <h2 className="font-display font-bold text-5xl md:text-7xl max-w-3xl leading-tight">
+          30 seconds in — <span className="text-primary">already dreaming.</span>
+        </h2>
+        <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+          Press play. Watch a good boy do what he does best.
+        </p>
+
+        <div className="mt-14 relative">
+          <div className="absolute -inset-8 rounded-[2rem] bg-primary/20 blur-3xl" />
+          <div className="relative rounded-3xl overflow-hidden ring-moon border border-border bg-card">
+            <video
+              src={sleepyVideo.url}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-auto block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
   return (
     <section className="relative py-32 bg-night text-center overflow-hidden">
       <div
