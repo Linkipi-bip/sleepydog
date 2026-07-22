@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import heroAsset from "@/assets/sleepydog-hero.png.asset.json";
-import bedAsset from "@/assets/sleepydog-bed.png.asset.json";
-import sleepyVideo from "@/assets/sleepy.mp4.asset.json";
+const heroAsset = "/assets/sleepydog-hero.png";
+const bedAsset = "/assets/sleepydog-bed.png";
+const sleepyVideo = "/assets/sleepy.mp4";
 
 const CONTRACT = "SOON_COMING_CA_ADDRESS_HERE";
 const TG_URL = "https://t.me/SLEEPYDOGDEV";
@@ -48,7 +48,7 @@ function Nav() {
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
           <span className="relative w-9 h-9 rounded-full overflow-hidden ring-moon bg-gradient-to-br from-primary to-accent">
-            <img src={heroAsset.url} alt="SleepyDog" className="absolute inset-0 w-full h-full object-cover" />
+            <img src={heroAsset} alt="SleepyDog" className="absolute inset-0 w-full h-full object-cover" />
           </span>
           <div className="leading-tight">
             <div className="font-display font-bold tracking-wide">SLEEPYDOG</div>
@@ -122,7 +122,7 @@ function Hero() {
         <div className="relative">
           <div className="absolute -inset-8 rounded-[2rem] bg-primary/20 blur-3xl" />
           <img
-            src={heroAsset.url}
+            src={heroAsset}
             alt="SleepyDog resting in a car at golden hour, wrapped in a warm glow"
             className="relative rounded-3xl w-full object-cover ring-moon"
             style={{ animation: "float-slow 10s ease-in-out infinite" }}
@@ -191,7 +191,7 @@ function Story() {
           <div className="relative">
             <div className="absolute -inset-6 rounded-[2rem] bg-primary/15 blur-3xl" />
             <img
-              src={bedAsset.url}
+              src={bedAsset}
               alt="SleepyDog asleep in bed wearing a starry nightcap"
               className="relative rounded-3xl w-full"
             />
@@ -290,7 +290,7 @@ function VideoSection() {
           <div className="absolute -inset-8 rounded-[2rem] bg-primary/20 blur-3xl" />
           <div className="relative rounded-3xl overflow-hidden ring-moon border border-border bg-card">
             <video
-              src={sleepyVideo.url}
+              src={sleepyVideo}
               autoPlay
               muted
               loop
