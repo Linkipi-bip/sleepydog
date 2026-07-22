@@ -47,7 +47,9 @@ function Nav() {
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-background/40 border-b border-border">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <span className="relative w-9 h-9 rounded-full bg-gradient-to-br from-primary to-accent ring-moon" />
+          <span className="relative w-9 h-9 rounded-full overflow-hidden ring-moon bg-gradient-to-br from-primary to-accent">
+            <img src={heroAsset.url} alt="SleepyDog" className="absolute inset-0 w-full h-full object-cover" />
+          </span>
           <div className="leading-tight">
             <div className="font-display font-bold tracking-wide">SLEEPYDOG</div>
             <div className="text-[10px] text-muted-foreground tracking-[0.2em]">$SLEEPYDOG</div>
