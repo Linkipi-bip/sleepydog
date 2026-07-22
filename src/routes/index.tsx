@@ -5,7 +5,7 @@ import bedAsset from "@/assets/sleepydog-bed.png.asset.json";
 import sleepyVideo from "@/assets/sleepy.mp4.asset.json";
 
 const CONTRACT = "SOON_COMING_CA_ADDRESS_HERE";
-const TG_URL = "#";
+const TG_URL = "https://t.me/SLEEPYDOGDEV";
 const X_URL = "https://x.com/FALLASLEEPDOG";
 
 export const Route = createFileRoute("/")({
