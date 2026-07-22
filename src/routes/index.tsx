@@ -316,6 +316,7 @@ function Index() {
       <Hero />
       <ContractBar />
       <Story />
+      <VideoSection />
       <Roadmap />
       <CTA />
       <Footer />
