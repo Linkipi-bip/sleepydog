@@ -302,7 +302,7 @@ function VideoSection() {
   );
 }
 
-
+function CTA() {
   return (
     <section className="relative py-32 bg-night text-center overflow-hidden">
       <div
