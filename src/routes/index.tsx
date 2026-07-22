@@ -6,7 +6,7 @@ import sleepyVideo from "@/assets/sleepy.mp4.asset.json";
 
 const CONTRACT = "SOON_COMING_CA_ADDRESS_HERE";
 const TG_URL = "#";
-const X_URL = "#";
+const X_URL = "https://x.com/FALLASLEEPDOG";
 
 export const Route = createFileRoute("/")({
   head: () => ({
