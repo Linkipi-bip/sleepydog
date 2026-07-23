@@ -4,7 +4,7 @@ const heroAsset = "/assets/sleepydog-hero.png";
 const bedAsset = "/assets/sleepydog-bed.png";
 const sleepyVideo = "/assets/sleepy.mp4";
 
-const CONTRACT = "cdrhsPa234foiTjoHxFZva2rqDC7QudpVrgzD8xpump";
+const CONTRACT = "Fch8Bft7Wg3srkr7y71snzr121AYkt9oR7sgucZpump";
 const TG_URL = "https://t.me/SLEEPYDOGDEV";
 const X_URL = "https://x.com/FALLASLEEPDOG";
 
